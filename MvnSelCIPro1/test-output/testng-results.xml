@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20635" started-at="2022-02-14T23:45:46 IST" finished-at="2022-02-14T23:46:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20635" started-at="2022-02-14T23:45:46 IST" finished-at="2022-02-14T23:46:07 IST">
+      <class name="tests.HTTPTutorialPageTests">
+        <test-method status="PASS" signature="inItPageFunctions()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="inItPageFunctions" is-config="true" duration-ms="14" started-at="2022-02-14T23:45:46 IST" finished-at="2022-02-14T23:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inItPageFunctions -->
+        <test-method status="PASS" signature="inItBrowser()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="inItBrowser" is-config="true" duration-ms="2648" started-at="2022-02-14T23:45:46 IST" finished-at="2022-02-14T23:45:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inItBrowser -->
+        <test-method status="PASS" signature="checkOverViewSectionTest()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="checkOverViewSectionTest" duration-ms="7598" started-at="2022-02-14T23:45:49 IST" finished-at="2022-02-14T23:45:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOverViewSectionTest -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="tearDownBrowser" is-config="true" duration-ms="752" started-at="2022-02-14T23:45:57 IST" finished-at="2022-02-14T23:45:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method status="PASS" signature="inItBrowser()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="inItBrowser" is-config="true" duration-ms="1404" started-at="2022-02-14T23:45:57 IST" finished-at="2022-02-14T23:45:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inItBrowser -->
+        <test-method status="PASS" signature="verifyPageCanBeAccessedTest()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="verifyPageCanBeAccessedTest" duration-ms="7462" started-at="2022-02-14T23:45:59 IST" finished-at="2022-02-14T23:46:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageCanBeAccessedTest -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:tests.HTTPTutorialPageTests@5bfbf16f]" name="tearDownBrowser" is-config="true" duration-ms="704" started-at="2022-02-14T23:46:06 IST" finished-at="2022-02-14T23:46:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- tests.HTTPTutorialPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
