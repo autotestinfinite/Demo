@@ -5,10 +5,11 @@
     <classes>
       <class name="tests.HTTPTutorialPageTests">
         <methods>
-          <include name="verifyPageCanBeAccessedTest"/>
+          <include name="failingTest"/>
           <include name="tearDownBrowser"/>
           <include name="inItBrowser"/>
           <include name="inItPageFunctions"/>
+          <include name="skipThisTest"/>
         </methods>
       </class> <!-- tests.HTTPTutorialPageTests -->
     </classes>

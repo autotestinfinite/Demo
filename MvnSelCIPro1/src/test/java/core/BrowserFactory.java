@@ -1,5 +1,5 @@
 package core;
-
+import static utils.ConsoleLogger.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -16,6 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	protected void setDriver()	 {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
+	
 	}
 	
 	

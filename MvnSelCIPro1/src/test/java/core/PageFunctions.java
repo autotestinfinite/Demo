@@ -2,15 +2,17 @@ package core;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
+import static utils.ConsoleLogger.*;
 public class PageFunctions extends BrowserFactory {
 	
 	private String value;
 	public void inIt()  {
 		setDriver();
+		log("Launched","Chrome Browser!!!!");
 	}
 	public void tearDown() {
 		getDriver().quit();
+		log("Closed","Chrome Browser!!!!");
 	}
 	
 	private void sleep() {
@@ -22,6 +24,7 @@ public class PageFunctions extends BrowserFactory {
 	}
 	private WebElement find(By by) {
 		sleep();
+		log("finding",by);
 		return getDriver().findElement(by);
 	}
 	
@@ -29,14 +32,17 @@ public class PageFunctions extends BrowserFactory {
 	
 	public void launch(String str) {
 		getDriver().get(str);
+		log("launched",str);
 	}
 	
 	public void click(By by) {
 		find(by).click();
+		log("clicked",by);
 	}
 	
 	public void clear(By by) {
 		find(by).clear();
+		log("cleared",by);
 	}
 	
 	
